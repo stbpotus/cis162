@@ -1,0 +1,42 @@
+body {
+    color: black;
+    background-color:  darkolivegreen;
+    font-family: monospace
+    ;
+}
+h1 {color: rgb(51,25,0);
+    text-align: center;
+    font-family: Georgia;
+    text-decoration:underline;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%
+}
+nav > ul {line-height: 2em;
+    list-style-type: none;
+    padding-left:10px;
+    font-size:15px;
+    background-color: wheat;
+}
+h2 {text-align:left;
+    font-size: 30px;
+    text-decoration: underline;
+}
+section {background-color: salmon;
+ 
+}
+footer {line-height: 2em;
+    list-style-type: none;
+    padding-left:10px;
+    font-size:15px;
+    background-color: wheat;
+    
+}
+.center {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+        
+    
