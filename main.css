@@ -1,42 +1,107 @@
-body {
-    color: black;
-    background-color:  darkolivegreen;
-    font-family: monospace
-    ;
-}
+
 h1 {color: rgb(51,25,0);
     text-align: center;
     font-family: Georgia;
-    text-decoration:underline;
-    background-color: white;
+    background-color: darkolivegreen;
     margin-left: auto;
     margin-right: auto;
-    width: 35%
+    width: 35%;
+    font-size: 1.4em;
+    line-height: 2em;
+}
+div {
+    height: 40px;
+    display: block;
+    vertical-align:middle;
+
 }
 nav > ul {line-height: 2em;
     list-style-type: none;
-    padding-left:10px;
     font-size:15px;
     background-color: wheat;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    padding: 12px 223px;
+    overflow:hidden;
+    color:rgb(51,25,0);
 }
-h2 {text-align:left;
-    font-size: 30px;
-    text-decoration: underline;
+li {display:inline;
 }
-section {background-color: salmon;
+nav li a{display: inline;
+    text-transform: uppercase;
+    font-family: "Raleway";
+    text-align: center;
  
 }
+
+h2 {text-align:center;
+    font-size: 30px;
+   
+}
+section {background-color: salmon;
+    clear:left;
+    float:left;
+    width:50%;
+ 
+}
+
+div#elgato {
+    float:right;
+    background-color: darkolivegreen;
+    display:block;
+    text-align: center;
+    clear: right;
+    width:50%;
+}
+div#elgato img{
+    height: auto;
+    width: 60%;
+}
+
 footer {line-height: 2em;
     list-style-type: none;
     padding-left:10px;
     font-size:15px;
     background-color: wheat;
+    clear: both;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
     
 }
-.center {
+
+p {padding-left: 2em;
+}
+
+/* Body Styles */
+
+body {
+    line-height: 1.5;
+    width: 95%;
+    min-width: 640px;
+    max-width: 1680px;
+    color: black;
+    background-color:  darkolivegreen;
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Body Header Styles */
+
+body > header > img {
     display: block;
-        margin-left: auto;
-        margin-right: auto;
+    width: 100%
 }
-        
+body > header > nav li {
+    width:20%;
+}
+nav li {
+    display: block;
+    float: left;
+    width: 30%
     
+}
